@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+# Raw dataset is large - never commit it (download it from Kaggle instead)
+data/raw/*
+!data/raw/.gitkeep
+# NOTE: models/ and results/ ARE committed so the Streamlit app can be deployed

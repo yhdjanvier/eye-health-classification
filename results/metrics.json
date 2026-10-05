@@ -1,0 +1,89 @@
+{
+  "test": {
+    "accuracy": 0.8846761453396524,
+    "precision_macro": 0.8885631838813177,
+    "recall_macro": 0.882903291400988,
+    "f1_macro": 0.8843113215517677,
+    "precision_weighted": 0.8887504396771548,
+    "recall_weighted": 0.8846761453396524,
+    "f1_weighted": 0.8853022372366002,
+    "roc_auc_ovr_macro": 0.9786159696984467,
+    "n_samples": 633
+  },
+  "validation": {
+    "accuracy": 0.8813291139240507,
+    "n_samples": 632
+  },
+  "confusion_matrix": [
+    [
+      145,
+      1,
+      7,
+      3
+    ],
+    [
+      0,
+      157,
+      1,
+      7
+    ],
+    [
+      2,
+      1,
+      117,
+      31
+    ],
+    [
+      1,
+      7,
+      12,
+      141
+    ]
+  ],
+  "classes": [
+    "cataract",
+    "diabetic_retinopathy",
+    "glaucoma",
+    "normal"
+  ],
+  "screening_healthy_vs_diseased": {
+    "sensitivity_disease_detected": 0.913135593220339,
+    "specificity_healthy_confirmed": 0.8757763975155279,
+    "precision_disease": 0.9556541019955654,
+    "binary_accuracy": 0.9036334913112164,
+    "tp": 431,
+    "fn": 41,
+    "tn": 141,
+    "fp": 20
+  },
+  "chosen_confidence_threshold": 0.8,
+  "selective_prediction_test": [
+    {
+      "threshold": 0.5,
+      "coverage": 0.9747235387045814,
+      "accuracy_on_accepted": 0.8962722852512156
+    },
+    {
+      "threshold": 0.6,
+      "coverage": 0.8909952606635071,
+      "accuracy_on_accepted": 0.9219858156028369
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.8309636650868878,
+      "accuracy_on_accepted": 0.935361216730038
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.7519747235387045,
+      "accuracy_on_accepted": 0.9558823529411765
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.6445497630331753,
+      "accuracy_on_accepted": 0.9779411764705882
+    }
+  ],
+  "mean_confidence_correct": 0.9022092223167419,
+  "mean_confidence_wrong": 0.6905238032341003
+}

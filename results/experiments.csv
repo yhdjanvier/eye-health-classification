@@ -1,0 +1,2 @@
+timestamp,architecture,lr_head,lr_finetune,dropout,batch_size,class_weights,val_acc_after_phase1,val_acc_final,val_loss_final,epochs_run,minutes
+2026-10-05T07:38:55,mobilenetv2,0.001,1e-05,0.3,32,True,0.8401898741722107,0.8813291192054749,0.3769156336784363,32,38.1

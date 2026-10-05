@@ -1,0 +1,44 @@
+{
+  "architecture": "mobilenetv2",
+  "img_size": [
+    224,
+    224
+  ],
+  "channels": 3,
+  "input_note": "Raw RGB float values in 0-255. Rescaling to [-1,1] happens INSIDE the model; resizing uses src/preprocessing.resize_to_uint8 (bilinear).",
+  "class_names": [
+    "cataract",
+    "diabetic_retinopathy",
+    "glaucoma",
+    "normal"
+  ],
+  "healthy_class": "normal",
+  "confidence_threshold": 0.8,
+  "hyperparameters": {
+    "batch_size": 32,
+    "dropout": 0.3,
+    "dense_units": 256,
+    "l2_weight": 0.0001,
+    "lr_head": 0.001,
+    "lr_finetune": 1e-05,
+    "unfreeze_layers": 40,
+    "class_weights": {
+      "0": 1.014442916093535,
+      "1": 0.9602864583333334,
+      "2": 1.0490753911806543,
+      "3": 0.980718085106383
+    },
+    "seed": 42
+  },
+  "split": {
+    "train": 2950,
+    "val": 632,
+    "test": 633
+  },
+  "validation_accuracy": 0.8813291192054749,
+  "validation_loss": 0.3769156336784363,
+  "tensorflow_version": "2.21.0",
+  "trained_at": "2026-10-05T07:38:55",
+  "test_accuracy": 0.8846761453396524,
+  "test_f1_macro": 0.8843113215517677
+}

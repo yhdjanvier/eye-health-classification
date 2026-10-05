@@ -1,0 +1,10 @@
+                      precision    recall  f1-score   support
+
+            Cataract     0.9797    0.9295    0.9539       156
+Diabetic Retinopathy     0.9458    0.9515    0.9486       165
+            Glaucoma     0.8540    0.7748    0.8125       151
+    Healthy (Normal)     0.7747    0.8758    0.8222       161
+
+            accuracy                         0.8847       633
+           macro avg     0.8886    0.8829    0.8843       633
+        weighted avg     0.8888    0.8847    0.8853       633

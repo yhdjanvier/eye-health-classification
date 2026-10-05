@@ -1,0 +1,33 @@
+{
+  "total_images": 4215,
+  "classes": [
+    "cataract",
+    "diabetic_retinopathy",
+    "glaucoma",
+    "normal"
+  ],
+  "images_per_class": {
+    "cataract": 1038,
+    "diabetic_retinopathy": 1098,
+    "glaucoma": 1005,
+    "normal": 1074
+  },
+  "imbalance_ratio_max_over_min": 1.093,
+  "unique_image_sizes": 5,
+  "width_min_max": [
+    256,
+    2592
+  ],
+  "height_min_max": [
+    256,
+    1728
+  ],
+  "color_modes": {
+    "RGB": 4215
+  },
+  "split_sizes": {
+    "train": 2950,
+    "test": 633,
+    "val": 632
+  }
+}

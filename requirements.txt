@@ -1,0 +1,11 @@
+# Core deep-learning stack (Keras 3 / .keras model format needs TensorFlow >= 2.16)
+tensorflow>=2.16
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+Pillow>=10.0
+matplotlib>=3.7
+kagglehub>=0.3      # automatic dataset download
+
+# Web application
+streamlit>=1.40
